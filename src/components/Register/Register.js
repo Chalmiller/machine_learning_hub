@@ -24,7 +24,7 @@ class Register extends Component {
 
     onSubmitSignin = () => {
         // This fetch method is what connects the updated state of the webapp to the server.
-        fetch('http://localhost:3000/register', {
+        fetch('https://dry-mountain-60025.herokuapp.com/register', {
             method: 'POST',
             headers: {'Content-Type': 'application/json',},
             body: JSON.stringify({
